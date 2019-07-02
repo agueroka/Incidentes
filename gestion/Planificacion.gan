@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-06-01" view-index="0" gantt-divider-location="561" resource-divider-location="300" version="2.8.10" locale="es_ES">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2019-06-14" view-index="0" gantt-divider-location="561" resource-divider-location="300" version="2.8.8" locale="es_AR">
     <description/>
-    <view zooming-state="default:8" id="gantt-chart">
-        <field id="tpd3" name="Nombre" width="190" order="0"/>
-        <field id="tpd4" name="Fecha de inicio" width="93" order="1"/>
-        <field id="tpd5" name="Fecha de fin" width="58" order="2"/>
-        <field id="tpd6" name="Duración" width="38" order="3"/>
-        <field id="tpd7" name="Progreso" width="44" order="4"/>
-        <field id="tpd13" name="Recursos" width="119" order="5"/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Nombre" width="240" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="48" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="61" order="2"/>
+        <field id="tpd6" name="Duración" width="40" order="3"/>
+        <field id="tpd7" name="Progreso" width="56" order="4"/>
+        <field id="tpd13" name="Recursos" width="112" order="5"/>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nombre" width="199" order="0"/>
-        <field id="1" name="Función" width="82" order="1"/>
+        <field id="0" name="Nombre" width="206" order="0"/>
+        <field id="1" name="Función" width="90" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -37,14 +37,14 @@
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
         <task id="0" name="gestion de tareas" meeting="false" start="2019-06-18" duration="41" complete="0" expand="true">
-            <task id="1" name="Requerimientos del proyecto" color="#8cb6ce" meeting="false" start="2019-06-18" duration="2" complete="0" thirdDate="2019-06-18" thirdDate-constraint="0" expand="true">
+            <task id="1" name="Requerimientos del proyecto" color="#8cb6ce" meeting="false" start="2019-06-18" duration="2" complete="20" thirdDate="2019-06-18" thirdDate-constraint="0" expand="true">
                 <depend id="2" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="2" name="Interfaz de usuario" color="#8cb6ce" meeting="false" start="2019-06-20" duration="2" complete="0" thirdDate="2019-06-20" thirdDate-constraint="0" expand="true">
                 <depend id="9" type="2" difference="0" hardness="Strong"/>
                 <depend id="38" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="3" name="Armado de prototipo" meeting="false" start="2019-06-24" duration="12" complete="0" expand="true">
+            <task id="3" name="Armado de prototipo" meeting="false" start="2019-06-24" duration="12" complete="0" expand="false">
                 <task id="9" name="anàlisis" color="#8cb6ce" meeting="false" start="2019-06-24" duration="2" complete="0" thirdDate="2019-06-24" thirdDate-constraint="0" expand="true">
                     <depend id="10" type="2" difference="0" hardness="Strong"/>
                     <depend id="38" type="2" difference="0" hardness="Strong"/>
@@ -62,7 +62,7 @@
                     <depend id="43" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="4" name="Menu de acceso a la aplicacion" meeting="false" start="2019-07-01" duration="12" complete="0" expand="true">
+            <task id="4" name="Menu de acceso a la aplicacion" meeting="false" start="2019-07-01" duration="12" complete="0" expand="false">
                 <task id="38" name="Anàlisis" color="#8cb6ce" meeting="false" start="2019-07-01" duration="2" complete="0" thirdDate="2019-06-24" thirdDate-constraint="0" expand="true">
                     <depend id="39" type="2" difference="0" hardness="Strong"/>
                 </task>
@@ -74,7 +74,7 @@
                 </task>
                 <task id="66" name="Testing" color="#8cb6ce" meeting="false" start="2019-07-16" duration="1" complete="0" thirdDate="2019-07-08" thirdDate-constraint="0" expand="true"/>
             </task>
-            <task id="6" name="Carga de proyectos" meeting="false" start="2019-07-10" duration="9" complete="0" expand="true">
+            <task id="6" name="Carga de proyectos" meeting="false" start="2019-07-10" duration="9" complete="0" expand="false">
                 <task id="43" name="Análisis" color="#8cb6ce" meeting="false" start="2019-07-10" duration="2" complete="0" thirdDate="2019-06-10" thirdDate-constraint="0" expand="true">
                     <depend id="44" type="2" difference="0" hardness="Strong"/>
                 </task>
@@ -88,7 +88,7 @@
                     <depend id="48" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="5" name="Carga de tareas" meeting="false" start="2019-07-23" duration="9" complete="0" expand="true">
+            <task id="5" name="Carga de tareas" meeting="false" start="2019-07-23" duration="9" complete="0" expand="false">
                 <task id="48" name="Análisis" color="#8cb6ce" meeting="false" start="2019-07-23" duration="2" complete="0" thirdDate="2019-07-23" thirdDate-constraint="0" expand="true">
                     <depend id="49" type="2" difference="0" hardness="Strong"/>
                 </task>
@@ -102,7 +102,7 @@
                     <depend id="54" type="2" difference="0" hardness="Strong"/>
                 </task>
             </task>
-            <task id="7" name="Cambio estado tareas" meeting="false" start="2019-08-05" duration="7" complete="0" expand="true">
+            <task id="7" name="Cambio estado tareas" meeting="false" start="2019-08-05" duration="7" complete="0" expand="false">
                 <task id="54" name="Análisis" color="#8cb6ce" meeting="false" start="2019-08-05" duration="1" complete="0" thirdDate="2019-08-05" thirdDate-constraint="0" expand="true">
                     <depend id="55" type="2" difference="0" hardness="Strong"/>
                 </task>
